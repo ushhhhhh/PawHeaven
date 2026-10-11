@@ -1,0 +1,687 @@
+<!DOCTYPE html>
+<html lang="en" data-theme="dark">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0, maximum-scale=5.0">
+  <title>Usha Prakash | AI & Machine Learning Engineer | Portfolio & Profile</title>
+  <meta name="description" content="Personal Profile & Portfolio of Usha Prakash - Artificial Intelligence and Machine Learning undergraduate at BMSITM. Experienced in Python, Scikit-learn, React, and LLMs.">
+  <meta name="keywords" content="Usha Prakash, AI Engineer, Machine Learning, Portfolio, BMSITM, Python, React, Gemini API, Streamlit">
+  <meta name="author" content="Usha Prakash">
+
+  <!-- Open Graph / Social Sharing -->
+  <meta property="og:title" content="Usha Prakash | AI & ML Profile Website">
+  <meta property="og:description" content="Personal Profile Website of Usha Prakash - AI & ML undergraduate skilled in Python, React, LLMs, and Data Science.">
+  <meta property="og:type" content="website">
+
+  <!-- Google Fonts & Font Awesome Icons -->
+  <link rel="preconnect" href="https://fonts.googleapis.com">
+  <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+  <link href="https://fonts.googleapis.com/css2?family=Plus+Jakarta+Sans:wght@300;400;500;600;700;800&family=JetBrains+Mono:wght@400;500;600&display=swap" rel="stylesheet">
+  <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.5.1/css/all.min.css">
+  
+  <link rel="stylesheet" href="style.css">
+</head>
+<body>
+
+  <!-- Floating Background Ambient Light -->
+  <div class="ambient-glow glow-1"></div>
+  <div class="ambient-glow glow-2"></div>
+
+  <!-- Navigation Bar -->
+  <header class="navbar" id="navbar">
+    <div class="container nav-container">
+      <a href="#hero" class="brand-logo">
+        <span class="brand-bracket">&lt;</span>UP<span class="brand-bracket">/&gt;</span>
+        <span class="brand-name">Usha Prakash</span>
+      </a>
+
+      <!-- Desktop Nav Links -->
+      <nav class="nav-menu" id="nav-menu">
+        <ul class="nav-list">
+          <li><a href="#about" class="nav-link"><i class="fa-regular fa-user"></i> About</a></li>
+          <li><a href="#skills" class="nav-link"><i class="fa-solid fa-code"></i> Skills</a></li>
+          <li><a href="#projects" class="nav-link"><i class="fa-solid fa-laptop-code"></i> Projects</a></li>
+          <li><a href="#education" class="nav-link"><i class="fa-solid fa-graduation-cap"></i> Education</a></li>
+          <li><a href="#certifications" class="nav-link"><i class="fa-solid fa-certificate"></i> Certifications</a></li>
+          <li><a href="#contact" class="nav-link"><i class="fa-regular fa-envelope"></i> Contact</a></li>
+        </ul>
+      </nav>
+
+      <!-- Nav Actions -->
+      <div class="nav-actions">
+        <button class="theme-toggle" id="theme-toggle" title="Toggle Dark/Light Mode" aria-label="Toggle Theme">
+          <i class="fa-solid fa-sun light-icon"></i>
+          <i class="fa-solid fa-moon dark-icon"></i>
+        </button>
+
+        <button class="btn btn-sm btn-outline print-btn" onclick="window.print()" title="Print / Save Resume as PDF">
+          <i class="fa-solid fa-file-pdf"></i>
+          <span>Resume PDF</span>
+        </button>
+
+        <button class="mobile-toggle" id="mobile-toggle" aria-label="Open Navigation Menu">
+          <span></span>
+          <span></span>
+          <span></span>
+        </button>
+      </div>
+    </div>
+  </header>
+
+  <main>
+    <!-- HERO SECTION -->
+    <section class="section hero-section" id="hero">
+      <div class="container hero-container">
+        <div class="hero-content">
+          <div class="hero-badge">
+            <span class="pulse-dot"></span>
+            <span>AI & Machine Learning Engineer • Open to Internships</span>
+          </div>
+          <h1 class="hero-title">
+            Hi, I'm <span class="gradient-text">Usha Prakash</span>
+          </h1>
+          <p class="hero-subtitle">
+            Engineering intelligent, AI-powered applications & machine learning solutions. Transforming real-world data into actionable impact.
+          </p>
+
+          <div class="hero-location-info">
+            <span><i class="fa-solid fa-location-dot"></i> Bengaluru, Karnataka</span>
+            <span class="divider">•</span>
+            <span><i class="fa-solid fa-graduation-cap"></i> BMSITM (CGPA: 8.5/10)</span>
+            <span class="divider">•</span>
+            <span><i class="fa-solid fa-robot"></i> LLMs & Full Stack</span>
+          </div>
+
+          <div class="hero-buttons">
+            <a href="#projects" class="btn btn-primary">
+              <i class="fa-solid fa-rocket"></i> View Featured Projects
+            </a>
+            <a href="#contact" class="btn btn-secondary">
+              <i class="fa-regular fa-paper-plane"></i> Get In Touch
+            </a>
+            <button class="btn btn-accent" id="open-ai-chat-btn">
+              <i class="fa-solid fa-wand-magic-sparkles"></i> Ask AI About Me
+            </button>
+          </div>
+
+          <!-- Quick Stats Banner -->
+          <div class="hero-stats">
+            <div class="stat-card">
+              <div class="stat-num">8.5<span class="stat-unit">/10</span></div>
+              <div class="stat-label">B.E. AIML CGPA</div>
+            </div>
+            <div class="stat-card">
+              <div class="stat-num">2+</div>
+              <div class="stat-label">Featured AI Projects</div>
+            </div>
+            <div class="stat-card">
+              <div class="stat-num">3+</div>
+              <div class="stat-label">Industry Certifications</div>
+            </div>
+            <div class="stat-card">
+              <div class="stat-num">2028</div>
+              <div class="stat-label">Expected Graduation</div>
+            </div>
+          </div>
+        </div>
+
+        <!-- Hero Profile Card / Visual -->
+        <div class="hero-visual">
+          <div class="profile-card glass-panel">
+            <div class="avatar-wrapper">
+              <div class="avatar-placeholder">
+                <i class="fa-solid fa-user-astronaut"></i>
+              </div>
+              <span class="online-indicator" title="Available for opportunities"></span>
+            </div>
+            <h3 class="profile-name">Usha Prakash</h3>
+            <p class="profile-role">Artificial Intelligence & Machine Learning</p>
+            <p class="profile-institution">BMS Institute of Tech. & Management</p>
+
+            <div class="profile-tags">
+              <span class="tag">Python</span>
+              <span class="tag">Gemini API</span>
+              <span class="tag">React.js</span>
+              <span class="tag">Scikit-learn</span>
+              <span class="tag">SQL</span>
+            </div>
+
+            <div class="profile-socials">
+              <a href="https://github.com/ushhhhhh" target="_blank" rel="noopener noreferrer" class="social-icon" title="GitHub Profile">
+                <i class="fa-brands fa-github"></i>
+              </a>
+              <a href="mailto:prakashusha291@gmail.com" class="social-icon" title="Email Usha">
+                <i class="fa-solid fa-envelope"></i>
+              </a>
+              <a href="tel:+919148354201" class="social-icon" title="Call / WhatsApp">
+                <i class="fa-solid fa-phone"></i>
+              </a>
+              <a href="https://www.linkedin.com" target="_blank" rel="noopener noreferrer" class="social-icon" title="LinkedIn Profile">
+                <i class="fa-brands fa-linkedin-in"></i>
+              </a>
+            </div>
+
+            <div class="profile-cta">
+              <a href="mailto:prakashusha291@gmail.com" class="quick-email-btn">
+                <i class="fa-regular fa-envelope"></i> prakashusha291@gmail.com
+              </a>
+            </div>
+          </div>
+        </div>
+      </div>
+    </section>
+
+    <!-- ABOUT SECTION -->
+    <section class="section about-section" id="about">
+      <div class="container">
+        <div class="section-header">
+          <span class="section-tag"><i class="fa-solid fa-user"></i> Introduction</span>
+          <h2 class="section-title">About <span class="gradient-text">Me</span></h2>
+          <p class="section-desc">Passionate about harnessing data and state-of-the-art AI to solve impactful real-world challenges.</p>
+        </div>
+
+        <div class="about-grid">
+          <div class="about-card glass-panel">
+            <div class="card-icon"><i class="fa-solid fa-bullseye"></i></div>
+            <h3>Professional Summary</h3>
+            <p class="about-text">
+              Artificial Intelligence and Machine Learning undergraduate with a strong academic standing (<strong>CGPA of 8.5/10</strong>), proficient in <strong>Python, machine learning, data preprocessing, and SQL</strong>. Experienced in designing and deploying AI-powered applications utilizing <strong>Scikit-learn, Streamlit, React, and Large Language Models (Gemini & OpenAI APIs)</strong>.
+            </p>
+            <p class="about-text mt-2">
+              Equipped with a solid foundation in <strong>Data Structures, Algorithms, and analytical problem-solving</strong>, with a keen interest in applying data science and intelligent systems to deliver scalable, user-centric engineering solutions.
+            </p>
+          </div>
+
+          <div class="about-highlights">
+            <div class="highlight-item glass-panel">
+              <div class="highlight-icon"><i class="fa-solid fa-brain"></i></div>
+              <div class="highlight-info">
+                <h4>Generative AI & LLM Systems</h4>
+                <p>Hands-on experience integrating Gemini 2.5 Flash, Vertex AI, and OpenAI APIs for autonomous triage and conversational voice assistants.</p>
+              </div>
+            </div>
+
+            <div class="highlight-item glass-panel">
+              <div class="highlight-icon"><i class="fa-solid fa-chart-line"></i></div>
+              <div class="highlight-info">
+                <h4>Applied Machine Learning</h4>
+                <p>End-to-end data pipelines: preprocessing, TF-IDF vectorization, Cosine Similarity, recommendation algorithms, and interactive Streamlit UIs.</p>
+              </div>
+            </div>
+
+            <div class="highlight-item glass-panel">
+              <div class="highlight-icon"><i class="fa-solid fa-layer-group"></i></div>
+              <div class="highlight-info">
+                <h4>Full Stack & Cloud Integration</h4>
+                <p>Developing reusable frontend components in React.js and Vite, connected to scalable RESTful Node/Express backends and Google Vertex AI.</p>
+              </div>
+            </div>
+          </div>
+        </div>
+      </div>
+    </section>
+
+    <!-- SKILLS SECTION -->
+    <section class="section skills-section" id="skills">
+      <div class="container">
+        <div class="section-header">
+          <span class="section-tag"><i class="fa-solid fa-code"></i> Technical Stack</span>
+          <h2 class="section-title">Technical <span class="gradient-text">Skills</span></h2>
+          <p class="section-desc">A comprehensive toolkit spanning Artificial Intelligence, Software Engineering, and Data Science.</p>
+        </div>
+
+        <div class="skills-grid">
+          <!-- Programming Languages -->
+          <div class="skill-category glass-panel">
+            <div class="category-header">
+              <div class="category-icon icon-blue"><i class="fa-solid fa-terminal"></i></div>
+              <h3 class="category-title">Programming Languages</h3>
+            </div>
+            <div class="skill-badges">
+              <span class="skill-badge"><i class="fa-brands fa-python"></i> Python</span>
+              <span class="skill-badge"><i class="fa-brands fa-js"></i> JavaScript (ES6+)</span>
+              <span class="skill-badge"><i class="fa-solid fa-database"></i> SQL</span>
+              <span class="skill-badge"><i class="fa-brands fa-html5"></i> HTML5</span>
+              <span class="skill-badge"><i class="fa-brands fa-css3-alt"></i> CSS3</span>
+              <span class="skill-badge"><i class="fa-solid fa-c"></i> C Language</span>
+            </div>
+          </div>
+
+          <!-- Machine Learning & AI -->
+          <div class="skill-category glass-panel">
+            <div class="category-header">
+              <div class="category-icon icon-purple"><i class="fa-solid fa-microchip"></i></div>
+              <h3 class="category-title">Machine Learning & AI</h3>
+            </div>
+            <div class="skill-badges">
+              <span class="skill-badge"><i class="fa-solid fa-robot"></i> Gemini 2.5 Flash</span>
+              <span class="skill-badge"><i class="fa-solid fa-cloud"></i> Google Vertex AI</span>
+              <span class="skill-badge"><i class="fa-solid fa-network-wired"></i> OpenAI API</span>
+              <span class="skill-badge"><i class="fa-solid fa-diagram-project"></i> Scikit-learn</span>
+              <span class="skill-badge"><i class="fa-solid fa-sliders"></i> Prompt Engineering</span>
+              <span class="skill-badge"><i class="fa-solid fa-chart-pie"></i> Cosine Similarity</span>
+              <span class="skill-badge"><i class="fa-solid fa-file-code"></i> TF-IDF Vectorization</span>
+              <span class="skill-badge"><i class="fa-solid fa-desktop"></i> Streamlit</span>
+            </div>
+          </div>
+
+          <!-- Data Science & Libraries -->
+          <div class="skill-category glass-panel">
+            <div class="category-header">
+              <div class="category-icon icon-emerald"><i class="fa-solid fa-chart-column"></i></div>
+              <h3 class="category-title">Data Science & Libraries</h3>
+            </div>
+            <div class="skill-badges">
+              <span class="skill-badge"><i class="fa-solid fa-table"></i> Pandas</span>
+              <span class="skill-badge"><i class="fa-solid fa-cubes"></i> NumPy</span>
+              <span class="skill-badge"><i class="fa-solid fa-filter"></i> Data Preprocessing</span>
+              <span class="skill-badge"><i class="fa-solid fa-wrench"></i> Feature Engineering</span>
+              <span class="skill-badge"><i class="fa-solid fa-magnifying-glass-chart"></i> Exploratory Data Analysis</span>
+            </div>
+          </div>
+
+          <!-- Web Development & Backend -->
+          <div class="skill-category glass-panel">
+            <div class="category-header">
+              <div class="category-icon icon-cyan"><i class="fa-solid fa-globe"></i></div>
+              <h3 class="category-title">Frontend & Backend</h3>
+            </div>
+            <div class="skill-badges">
+              <span class="skill-badge"><i class="fa-brands fa-react"></i> React.js</span>
+              <span class="skill-badge"><i class="fa-brands fa-node-js"></i> Node.js</span>
+              <span class="skill-badge"><i class="fa-solid fa-server"></i> Express.js</span>
+              <span class="skill-badge"><i class="fa-solid fa-bolt"></i> Vite</span>
+              <span class="skill-badge"><i class="fa-solid fa-microphone"></i> Web Speech API</span>
+              <span class="skill-badge"><i class="fa-solid fa-database"></i> MySQL</span>
+            </div>
+          </div>
+
+          <!-- Developer Tools & Cloud -->
+          <div class="skill-category glass-panel">
+            <div class="category-header">
+              <div class="category-icon icon-amber"><i class="fa-solid fa-toolbox"></i></div>
+              <h3 class="category-title">Developer Tools & Platforms</h3>
+            </div>
+            <div class="skill-badges">
+              <span class="skill-badge"><i class="fa-brands fa-git-alt"></i> Git</span>
+              <span class="skill-badge"><i class="fa-brands fa-github"></i> GitHub</span>
+              <span class="skill-badge"><i class="fa-solid fa-code"></i> VS Code</span>
+              <span class="skill-badge"><i class="fa-solid fa-paper-plane"></i> Postman</span>
+              <span class="skill-badge"><i class="fa-solid fa-cloud"></i> Google Cloud / Vertex AI</span>
+              <span class="skill-badge"><i class="fa-solid fa-gears"></i> Workato Automation</span>
+            </div>
+          </div>
+
+          <!-- Core Academic Fundamentals -->
+          <div class="skill-category glass-panel">
+            <div class="category-header">
+              <div class="category-icon icon-rose"><i class="fa-solid fa-book-bookmark"></i></div>
+              <h3 class="category-title">Core Computer Science</h3>
+            </div>
+            <div class="skill-badges">
+              <span class="skill-badge"><i class="fa-solid fa-sitemap"></i> Data Structures & Algorithms</span>
+              <span class="skill-badge"><i class="fa-solid fa-database"></i> Database Management Systems (DBMS)</span>
+              <span class="skill-badge"><i class="fa-solid fa-shapes"></i> Object-Oriented Programming (OOP)</span>
+              <span class="skill-badge"><i class="fa-solid fa-window-restore"></i> Operating Systems</span>
+              <span class="skill-badge"><i class="fa-solid fa-network-wired"></i> Computer Networks</span>
+              <span class="skill-badge"><i class="fa-solid fa-square-root-variable"></i> Linear Algebra & Probability</span>
+            </div>
+          </div>
+        </div>
+      </div>
+    </section>
+
+    <!-- PROJECTS SECTION -->
+    <section class="section projects-section" id="projects">
+      <div class="container">
+        <div class="section-header">
+          <span class="section-tag"><i class="fa-solid fa-laptop-code"></i> Work & Innovation</span>
+          <h2 class="section-title">Featured <span class="gradient-text">Projects</span></h2>
+          <p class="section-desc">Real-world AI and Machine Learning applications engineered with modern industry practices.</p>
+        </div>
+
+        <div class="projects-grid">
+          <!-- Project 1 -->
+          <div class="project-card glass-panel">
+            <div class="project-header">
+              <div class="project-type-badge">
+                <i class="fa-solid fa-brain"></i> Generative AI & Medical Triage
+              </div>
+              <div class="project-links">
+                <a href="https://github.com/shutupzunaira/voice-ai-agent" target="_blank" rel="noopener noreferrer" class="link-btn" title="View Source on GitHub">
+                  <i class="fa-brands fa-github"></i> Source Code
+                </a>
+              </div>
+            </div>
+
+            <h3 class="project-title">Virtual Clinic – Autonomous Medical Voice Agent</h3>
+            <p class="project-description">
+              An AI-powered virtual healthcare assistant engineered to support voice- and text-based patient interactions with autonomous appointment scheduling and clinical triage assistance.
+            </p>
+
+            <div class="project-highlights">
+              <ul>
+                <li><strong>Multimodal Conversational AI:</strong> Integrated <em>Gemini 2.5 Flash, Vertex AI, and OpenAI APIs</em> to enable intelligent voice and text interactions with Web Speech API for seamless Speech-to-Text (STT) and Text-to-Speech (TTS).</li>
+                <li><strong>Autonomous Triage & Scheduling:</strong> Built automated logic to triage patient symptoms and handle medical appointment scheduling without human intervention.</li>
+                <li><strong>Full-Stack Architecture:</strong> Developed reusable components in React.js & Vite, backed by robust RESTful APIs built on Node.js and Express.js.</li>
+                <li><strong>Team Collaboration:</strong> Collaborated within a four-member engineering team using Git and GitHub branching workflows for agile feature delivery.</li>
+              </ul>
+            </div>
+
+            <div class="project-tech-stack">
+              <span class="stack-tag">React.js</span>
+              <span class="stack-tag">Vite</span>
+              <span class="stack-tag">Node.js</span>
+              <span class="stack-tag">Express.js</span>
+              <span class="stack-tag">Gemini 2.5 Flash</span>
+              <span class="stack-tag">Google Vertex AI</span>
+              <span class="stack-tag">OpenAI API</span>
+              <span class="stack-tag">Web Speech API</span>
+            </div>
+          </div>
+
+          <!-- Project 2 -->
+          <div class="project-card glass-panel">
+            <div class="project-header">
+              <div class="project-type-badge">
+                <i class="fa-solid fa-film"></i> Machine Learning & Recommender Systems
+              </div>
+              <div class="project-links">
+                <a href="https://github.com/ushhhhhh/movie" target="_blank" rel="noopener noreferrer" class="link-btn" title="View Source on GitHub">
+                  <i class="fa-brands fa-github"></i> Source Code
+                </a>
+              </div>
+            </div>
+
+            <h3 class="project-title">Movie Recommendation System</h3>
+            <p class="project-description">
+              A high-performance content-based movie recommendation platform that predicts and serves personalized film suggestions based on metadata similarities in real-time.
+            </p>
+
+            <div class="project-highlights">
+              <ul>
+                <li><strong>Feature Engineering & Preprocessing:</strong> Cleaned and engineered features across large movie datasets using <em>Python, Pandas, and NumPy</em> to produce high-fidelity model vectors.</li>
+                <li><strong>Vector Space & NLP:</strong> Implemented <em>TF-IDF Vectorization</em> and mathematical <em>Cosine Similarity</em> to quantify semantic proximity between film attributes (genres, cast, synopsis).</li>
+                <li><strong>Interactive Web App:</strong> Built an intuitive, rapid-response user interface using <em>Streamlit</em> for real-time search, ranking, and display.</li>
+                <li><strong>Performance Tuning:</strong> Optimized data caching and similarity matrix calculations to achieve minimal latency during real-time user queries.</li>
+              </ul>
+            </div>
+
+            <div class="project-tech-stack">
+              <span class="stack-tag">Python</span>
+              <span class="stack-tag">Scikit-learn</span>
+              <span class="stack-tag">Pandas</span>
+              <span class="stack-tag">NumPy</span>
+              <span class="stack-tag">Streamlit</span>
+              <span class="stack-tag">TF-IDF</span>
+              <span class="stack-tag">Cosine Similarity</span>
+            </div>
+          </div>
+        </div>
+      </div>
+    </section>
+
+    <!-- EDUCATION & CERTIFICATIONS SECTION -->
+    <section class="section edu-cert-section" id="education">
+      <div class="container">
+        <div class="two-col-grid">
+          
+          <!-- Education Column -->
+          <div class="edu-column">
+            <div class="section-header align-left">
+              <span class="section-tag"><i class="fa-solid fa-graduation-cap"></i> Academic Background</span>
+              <h2 class="section-title">Education</h2>
+            </div>
+
+            <div class="timeline">
+              <div class="timeline-item glass-panel">
+                <div class="timeline-badge"><i class="fa-solid fa-graduation-cap"></i></div>
+                <div class="timeline-header">
+                  <div>
+                    <h3 class="institution-title">BMS Institute of Technology and Management</h3>
+                    <p class="degree-title">Bachelor of Engineering in Artificial Intelligence and Machine Learning</p>
+                  </div>
+                  <div class="timeline-date">
+                    <span class="date-badge">2024 – 2028 (Expected)</span>
+                  </div>
+                </div>
+
+                <div class="cgpa-box">
+                  <span class="cgpa-label">Cumulative GPA:</span>
+                  <span class="cgpa-score">8.50 / 10.00</span>
+                  <span class="status-pill">High Standing</span>
+                </div>
+
+                <div class="coursework-list">
+                  <h4 class="coursework-heading">Key Relevant Coursework:</h4>
+                  <div class="coursework-tags">
+                    <span>Data Structures & Algorithms</span>
+                    <span>Machine Learning</span>
+                    <span>Artificial Intelligence</span>
+                    <span>Database Management Systems</span>
+                    <span>Probability & Statistics</span>
+                    <span>Linear Algebra</span>
+                  </div>
+                </div>
+
+                <div class="timeline-location">
+                  <i class="fa-solid fa-location-dot"></i> Bengaluru, Karnataka, India
+                </div>
+              </div>
+            </div>
+          </div>
+
+          <!-- Certifications Column -->
+          <div class="cert-column" id="certifications">
+            <div class="section-header align-left">
+              <span class="section-tag"><i class="fa-solid fa-certificate"></i> Credentials</span>
+              <h2 class="section-title">Certifications</h2>
+            </div>
+
+            <div class="certifications-list">
+              <!-- Cert 1 -->
+              <div class="cert-card glass-panel">
+                <div class="cert-icon icon-purple"><i class="fa-solid fa-gears"></i></div>
+                <div class="cert-details">
+                  <div class="cert-top">
+                    <h3 class="cert-name">Workato Foundations Level 1</h3>
+                    <span class="cert-year">2025</span>
+                  </div>
+                  <p class="cert-issuer">Workato Automation Institute</p>
+                  <p class="cert-summary">Enterprise workflow integration, automation architecture, and recipe building.</p>
+                  <span class="cert-verified"><i class="fa-solid fa-circle-check"></i> Verified Credential</span>
+                </div>
+              </div>
+
+              <!-- Cert 2 -->
+              <div class="cert-card glass-panel">
+                <div class="cert-icon icon-blue"><i class="fa-solid fa-shield-halved"></i></div>
+                <div class="cert-details">
+                  <div class="cert-top">
+                    <h3 class="cert-name">Cyber Security and Applied Ethical Hacking</h3>
+                    <span class="cert-year">2025</span>
+                  </div>
+                  <p class="cert-issuer">Infosys Springboard</p>
+                  <p class="cert-summary">Network security defenses, vulnerability assessment, cryptography, and secure development.</p>
+                  <span class="cert-verified"><i class="fa-solid fa-circle-check"></i> Verified Credential</span>
+                </div>
+              </div>
+
+              <!-- Cert 3 -->
+              <div class="cert-card glass-panel">
+                <div class="cert-icon icon-emerald"><i class="fa-solid fa-code"></i></div>
+                <div class="cert-details">
+                  <div class="cert-top">
+                    <h3 class="cert-name">Programming in C</h3>
+                    <span class="cert-year">2024</span>
+                  </div>
+                  <p class="cert-issuer">Infosys Springboard</p>
+                  <p class="cert-summary">Algorithmic logic, pointers, low-level memory allocation, and structured programming.</p>
+                  <span class="cert-verified"><i class="fa-solid fa-circle-check"></i> Verified Credential</span>
+                </div>
+              </div>
+            </div>
+          </div>
+
+        </div>
+      </div>
+    </section>
+
+    <!-- CONTACT SECTION -->
+    <section class="section contact-section" id="contact">
+      <div class="container">
+        <div class="section-header">
+          <span class="section-tag"><i class="fa-solid fa-envelope"></i> Reach Out</span>
+          <h2 class="section-title">Get In <span class="gradient-text">Touch</span></h2>
+          <p class="section-desc">Open for internships, collaborative AI projects, and research opportunities.</p>
+        </div>
+
+        <div class="contact-wrapper glass-panel">
+          <div class="contact-info-panel">
+            <h3>Let's Connect</h3>
+            <p>Feel free to reach out directly via email, phone, or connect on LinkedIn and GitHub.</p>
+
+            <div class="contact-methods">
+              <a href="mailto:prakashusha291@gmail.com" class="contact-method-item">
+                <div class="icon-circle"><i class="fa-solid fa-envelope"></i></div>
+                <div>
+                  <span class="method-label">Email Address</span>
+                  <span class="method-val">prakashusha291@gmail.com</span>
+                </div>
+              </a>
+
+              <a href="tel:+919148354201" class="contact-method-item">
+                <div class="icon-circle"><i class="fa-solid fa-phone"></i></div>
+                <div>
+                  <span class="method-label">Phone / WhatsApp</span>
+                  <span class="method-val">+91 91483 54201</span>
+                </div>
+              </a>
+
+              <div class="contact-method-item">
+                <div class="icon-circle"><i class="fa-solid fa-location-dot"></i></div>
+                <div>
+                  <span class="method-label">Location</span>
+                  <span class="method-val">Bengaluru, Karnataka, India</span>
+                </div>
+              </div>
+            </div>
+
+            <div class="contact-social-row">
+              <a href="https://github.com/ushhhhhh" target="_blank" rel="noopener noreferrer" class="social-btn" title="GitHub">
+                <i class="fa-brands fa-github"></i>
+                <span>GitHub</span>
+              </a>
+              <a href="https://www.linkedin.com" target="_blank" rel="noopener noreferrer" class="social-btn" title="LinkedIn">
+                <i class="fa-brands fa-linkedin"></i>
+                <span>LinkedIn</span>
+              </a>
+              <button class="social-btn copy-btn" onclick="copyContactInfo()">
+                <i class="fa-solid fa-copy"></i>
+                <span id="copy-text">Copy Contact</span>
+              </button>
+            </div>
+          </div>
+
+          <!-- Interactive Contact Form -->
+          <div class="contact-form-panel">
+            <h3>Send a Message</h3>
+            <form id="contact-form" onsubmit="handleFormSubmit(event)">
+              <div class="form-group">
+                <label for="name">Your Name</label>
+                <input type="text" id="name" name="name" placeholder="John Doe" required>
+              </div>
+
+              <div class="form-group">
+                <label for="email">Your Email</label>
+                <input type="email" id="email" name="email" placeholder="john@example.com" required>
+              </div>
+
+              <div class="form-group">
+                <label for="subject">Subject / Purpose</label>
+                <input type="text" id="subject" name="subject" placeholder="Internship Inquiry / Project Collaboration" required>
+              </div>
+
+              <div class="form-group">
+                <label for="message">Your Message</label>
+                <textarea id="message" name="message" rows="4" placeholder="Hello Usha, I came across your profile and would like to connect regarding..." required></textarea>
+              </div>
+
+              <button type="submit" class="btn btn-primary btn-block" id="form-submit-btn">
+                <i class="fa-regular fa-paper-plane"></i> Send Message
+              </button>
+            </form>
+            <div id="form-toast" class="form-toast"></div>
+          </div>
+        </div>
+      </div>
+    </section>
+  </main>
+
+  <!-- AI ASSISTANT MODAL (Interactive AI Agent Feature) -->
+  <div class="ai-modal-overlay" id="ai-modal-overlay">
+    <div class="ai-modal glass-panel">
+      <div class="ai-modal-header">
+        <div class="ai-modal-title">
+          <i class="fa-solid fa-robot"></i>
+          <div>
+            <h4>Usha's AI Profile Assistant</h4>
+            <span class="ai-status">Online • Ask questions about Usha</span>
+          </div>
+        </div>
+        <button class="ai-close-btn" id="ai-close-btn" aria-label="Close Assistant">&times;</button>
+      </div>
+
+      <div class="ai-chat-body" id="ai-chat-body">
+        <div class="chat-message bot-message">
+          <div class="message-avatar"><i class="fa-solid fa-robot"></i></div>
+          <div class="message-content">
+            Hello! I am Usha's AI Profile Assistant. Ask me anything about her skills, projects, educational background at BMSITM, or contact information!
+          </div>
+        </div>
+      </div>
+
+      <!-- Quick prompts -->
+      <div class="quick-prompts">
+        <button class="quick-chip" onclick="askQuickPrompt('What are Usha\'s top technical skills?')">Top Skills?</button>
+        <button class="quick-chip" onclick="askQuickPrompt('Tell me about the Virtual Clinic project.')">Virtual Clinic Project?</button>
+        <button class="quick-chip" onclick="askQuickPrompt('What is Usha\'s education and CGPA?')">Education & CGPA?</button>
+        <button class="quick-chip" onclick="askQuickPrompt('How can I contact Usha for an internship?')">Contact Details?</button>
+      </div>
+
+      <div class="ai-chat-input-bar">
+        <input type="text" id="ai-user-input" placeholder="Ask a question about Usha..." onkeypress="handleAiKeyPress(event)">
+        <button id="ai-send-btn" onclick="sendAiMessage()"><i class="fa-solid fa-arrow-up"></i></button>
+      </div>
+    </div>
+  </div>
+
+  <!-- FOOTER -->
+  <footer class="footer">
+    <div class="container footer-container">
+      <div class="footer-top">
+        <div class="footer-brand">
+          <span class="brand-bracket">&lt;</span>UP<span class="brand-bracket">/&gt;</span>
+          <span class="brand-name">Usha Prakash</span>
+          <p class="footer-subtext">AI & Machine Learning Undergraduate • BMSITM, Bengaluru</p>
+        </div>
+
+        <div class="footer-links">
+          <a href="#about">About</a>
+          <a href="#skills">Skills</a>
+          <a href="#projects">Projects</a>
+          <a href="#education">Education</a>
+          <a href="#contact">Contact</a>
+        </div>
+      </div>
+
+      <div class="footer-bottom">
+        <p>&copy; 2026 Usha Prakash. Designed & Built for InAmigos Foundation Internship Portfolio.</p>
+        <p class="footer-tech-note">Responsive • AI-Assisted • Mobile-Friendly</p>
+      </div>
+    </div>
+  </footer>
+
+  <script src="script.js"></script>
+</body>
+</html>
