@@ -80,11 +80,11 @@ server.listen(PORT, '0.0.0.0', () => {
   const wifiIface = ips.find(i => i.name.toLowerCase().includes('wi-fi') || i.name.toLowerCase().includes('wlan')) || ips[0];
 
   console.log('================================================================');
-  console.log('🚀 USHA PRAKASH - PERSONAL PROFILE & PORTFOLIO SERVER IS ONLINE!');
+  console.log('🐾 PAWHAVEN BENGALURU - PET ADOPTION PLATFORM IS ONLINE!');
   console.log('================================================================');
-  console.log(`💻 Laptop / Desktop Browser : http://localhost:${PORT}`);
+  console.log(`💻 Desktop / Browser Access : http://localhost:${PORT}`);
   if (wifiIface) {
-    console.log(`📱 Mobile Phone (Wi-Fi)     : http://${wifiIface.address}:${PORT}`);
+    console.log(`📱 Mobile Device (Wi-Fi)    : http://${wifiIface.address}:${PORT}`);
   }
   console.log('----------------------------------------------------------------');
   console.log('Available network links:');
@@ -92,6 +92,6 @@ server.listen(PORT, '0.0.0.0', () => {
     console.log(`   • [${i.name}] -> http://${i.address}:${PORT}`);
   });
   console.log('----------------------------------------------------------------');
-  console.log('Ensure your phone is connected to the same Wi-Fi network.');
+  console.log('Empowering pet adoption in Bengaluru, Karnataka, India.');
   console.log('================================================================');
 });

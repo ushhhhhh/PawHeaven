@@ -1,18 +1,21 @@
 {
-  "name": "usha-prakash-portfolio",
+  "name": "pawhaven-bengaluru",
   "version": "1.0.0",
-  "description": "Personal Profile and AI-based Portfolio for Usha Prakash - InAmigos Foundation Internship Task 1",
-  "main": "server.js",
+  "description": "PawHaven Bengaluru — A modern, responsive website connecting pet adopters with rescued dogs and cats from shelter homes in Bengaluru, Karnataka, India.",
   "scripts": {
-    "start": "node server.js"
+    "start": "node server.js",
+    "build": "echo 'PawHaven static site ready'"
   },
   "keywords": [
-    "portfolio",
-    "ai",
-    "profile",
-    "inamigos-foundation",
-    "resume"
+    "pawhaven",
+    "bengaluru",
+    "pet-adoption",
+    "rescue-dogs",
+    "indie-dogs",
+    "cat-adoption",
+    "animal-shelter",
+    "karnataka"
   ],
-  "author": "Usha Prakash",
-  "license": "ISC"
+  "author": "PawHaven Bengaluru Initiative",
+  "license": "MIT"
 }

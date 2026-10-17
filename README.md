@@ -1,96 +1,107 @@
-# 🌐 Usha Prakash - Personal Profile & AI Portfolio Website
-**InAmigos Foundation Internship — Task 1 Submission**
+# 🐾 PawHaven Bengaluru — Pet Adoption & Rescue Platform
+
+A modern, responsive website concept connecting compassionate individuals with rescued dogs, puppies, cats, and kittens from animal shelter homes and foster networks across **Bengaluru, Karnataka, India**.
+
+![PawHaven Bengaluru](https://images.unsplash.com/photo-1623387641168-d9803ddd3f35?w=1200&auto=format&fit=crop&q=80)
 
 ---
 
-## 📌 Project Overview
-This is a modern, responsive personal profile and portfolio website built for **Usha Prakash** (Artificial Intelligence & Machine Learning undergraduate at BMS Institute of Technology and Management). 
+## 🌟 Mission & Purpose
 
-The website highlights:
-- **Name & Title:** Usha Prakash | AI & Machine Learning Undergraduate
-- **Interactive AI Agent:** An embedded AI Profile Assistant allowing visitors to ask questions about Usha's skills, projects, and education.
-- **Introduction & Professional Summary:** Focused on AI, data science, and software engineering.
-- **Comprehensive Skills Matrix:** Python, Scikit-learn, React.js, Gemini 2.5 Flash, Vertex AI, SQL, and core CS fundamentals.
-- **Featured Projects:**
-  1. *Virtual Clinic – Autonomous Medical Voice Agent* (Gemini 2.5 Flash, Vertex AI, Web Speech API, React, Node.js)
-  2. *Movie Recommendation System* (Python, Scikit-learn, Streamlit, Cosine Similarity, TF-IDF)
-- **Education & Credentials:** BMSITM (CGPA: 8.5/10), Workato Foundations Level 1, Infosys Springboard Ethical Hacking & C.
-- **Contact Details & Interactive Form:** Direct email, phone, location, LinkedIn, and GitHub links.
-- **Print / PDF Resume Generator:** Built-in `@media print` engine to export a clean, executive resume PDF.
+PawHaven Bengaluru aims to:
+- **Encourage Adoption over Buying**: Promote the `#AdoptDontShop` philosophy to end cruel commercial puppy and kitten mills.
+- **Celebrate Indian Native Breeds (Indies)**: Showcase the resilience, natural disease immunity, and unmatched loyalty of Indian Pariah dogs.
+- **Connect Communities with Shelters**: Provide visibility for grassroots rescue volunteers, foster homes, and shelters across Bengaluru neighborhoods (Indiranagar, Koramangala, Whitefield, HSR Layout, Jayanagar, Malleshwaram, and more).
+- **Educate on Responsible Pet Care**: Spread awareness on vaccination (DHPPiL, Anti-Rabies, Tricat), sterilization (ABC programs), animal welfare laws in Karnataka, and apartment pet safety.
+
+> *"Adoption is not a one-day decision. It is a promise to care for a life."*
 
 ---
 
-## 🚀 How to Access Locally (Laptop & Mobile Phone)
+## 🎨 Design & Aesthetic System
 
-The local server is already running!
-
-### 💻 1. On Your Laptop / Computer:
-Open any web browser (Chrome, Edge, Brave, etc.) and visit:
-👉 **[http://localhost:3000](http://localhost:3000)**
-
-### 📱 2. On Your Mobile Phone:
-Make sure your phone is connected to the same Wi-Fi network as your laptop, then open your mobile browser (Safari, Chrome) and visit:
-👉 **[http://192.168.1.48:3000](http://192.168.1.48:3000)**
-
-*(If your Wi-Fi IP changes in the future, run `ipconfig` or double-click `start-server.bat` to see the updated link).*
+- **Warm Cream & Off-White Canvas**: Soft, welcoming background tones (`#FAF7F2`, `#FFFDF9`).
+- **Terracotta & Warm Orange Accents**: Energy, vitality, and friendly paw accents (`#F97316`, `#EA580C`).
+- **Earth Brown**: Compassionate, grounding typography and card borders (`#5C3D2E`, `#382319`).
+- **Fresh Leaf Green**: Signifying veterinary care, vaccination, recovery, and life (`#16A34A`, `#22C55E`).
+- **Rounded Cards & Soft Shadows**: Modern, accessible UI with smooth micro-interactions.
+- **Typography**: Google Fonts *Poppins* (headings) paired with *Nunito* (body).
 
 ---
 
-## 🌐 How to Publish and Get a Live Website Link (Task 1 Requirement)
+## 🚀 Key Features
 
-For Task 1, the submission requires a **Live Website Link**. Here are the three quickest ways:
+1. **Responsive Navigation Bar**:
+   - PawHaven paw logo, quick links, active scroll spy.
+   - Dynamic **Shortlist / Saved Pets** counter badge.
+   - Mobile hamburger drawer navigation.
 
-### 🌟 Option 1: GitHub Pages (Recommended — 2 Minutes, Free Forever)
-1. Go to [GitHub](https://github.com) and create a new public repository named `portfolio` (or `ushhhhhh.github.io`).
-2. Push or upload `index.html`, `style.css`, and `script.js`.
-3. In repository **Settings** → **Pages** → under **Branch**, select `main` (or `master`) and click **Save**.
-4. Your live link will be: `https://ushhhhhh.github.io/portfolio/`
+2. **Hero Section**:
+   - High-impact emotional visuals of rescued companions.
+   - "Every Paw Deserves a Loving Home" headline and supporting quotes.
+   - Trust statistics for Bengaluru adoption awareness.
 
-### ⚡ Option 2: Netlify Drop (30 Seconds, No Git Needed)
-1. Go to [app.netlify.com/drop](https://app.netlify.com/drop).
-2. Drag and drop the `portfolio` folder directly into the browser.
-3. It will instantly publish and give you a live link (e.g., `https://usha-prakash-portfolio.netlify.app`).
+3. **Interactive Pet Adoption Gallery**:
+   - Comprehensive sample profiles:
+     - **Bruno**: 2-year-old friendly Indian Pariah dog (Indiranagar).
+     - **Bella**: 5-month-old playful indie puppy (Koramangala).
+     - **Simba**: 1-year-old affectionate orange tabby cat (Whitefield).
+     - **Luna**: 4-month-old gentle tuxedo kitten (Jayanagar).
+     - **Max**: 3-year-old energetic mixed-breed dog (HSR Layout).
+     - **Misty**: 2-year-old calm rescued calico cat (Malleshwaram).
+     - **Rocky**: 6-year-old wise senior indie (Bannerghatta Road).
+     - **Daisy**: 7-month-old golden indie cross pup (Sarjapur Road).
+   - Real-time search by name, breed, location, or personality trait.
+   - Working filters: Dogs, Cats, Puppies & Kittens, Adult Pets, Available Now.
+   - Secondary filters: Bengaluru Area dropdown, Gender filter.
 
-### 🤖 Option 3: Wix AI / WordPress (AI-Builder Option as per prompt)
-1. Visit [Wix.com](https://www.wix.com) or [WordPress.com](https://wordpress.com).
-2. Select **"Create with AI"** / **"Generate with Wix Studio AI"**.
-3. Prompt it: *"Create a clean, minimalist personal profile portfolio for Usha Prakash, an AI & ML undergraduate skilled in Python, Scikit-learn, and React."*
-4. Copy the information from `index.html` into the generated sections.
-5. Click **Publish** and copy your live URL.
+4. **Pet Details Modal**:
+   - Comprehensive backstory, health & vaccination status, home compatibility (kids, other animals, apartment living), and care guidelines.
+
+5. **Adoption Application Modal**:
+   - Step-by-step interest form with input validation (Name, Email, 10-digit Phone, Bengaluru area, Housing type, Experience, Household consensus).
+   - Generates an instant personalized Application Reference ID (`PH-BLR-2026-XXXX`) with a timeline of next steps.
+
+6. **Shortlist / Favorites Drawer**:
+   - Click the heart icon to shortlist pets with local storage persistence across sessions.
+
+7. **How Adoption Works**:
+   - 4-step transparent journey: Explore &rarr; Connect &rarr; Meet & Understand &rarr; Welcome Home.
+   - The **"3-3-3 Rule"** decompression guide for rescued pets.
+
+8. **About Us Section**:
+   - Clear declaration of the platform's vision as an awareness initiative.
+   - "Why Adopt an Indie Dog?" feature showcase.
+   - Transparent non-NGO notice.
+
+9. **Shelters & Rescue Partners Directory**:
+   - Representative partner cards for Bengaluru animal organizations.
+   - "Become a Shelter Partner" modal for local foster parents and rescuers.
+
+10. **Pet Care & Responsible Adoption Guide**:
+    - 8 educational modules covering lifestyle matching, vaccines, spaying/neutering, diet, exercise, adjustment, pet-proofing, and long-term financial commitment.
+    - **Interactive Adoption Readiness Quiz** with real-time readiness feedback score.
+
+11. **Success Stories & FAQ**:
+    - Real-life transformation journeys of rescued pets in Bengaluru.
+    - Accordion addressing apartment pet laws (AWBI), adoption procedures, and indie health.
+
+12. **Emergency Helpline & Contact Form**:
+    - Guidance for injured street animals in Bengaluru.
+    - General inquiry and weekend adoption camp newsletter subscription.
 
 ---
 
-## 📱 LinkedIn Post Template (Tag InAmigos Foundation)
+## 💻 How to Run Locally
 
-Below is the pre-written template for your LinkedIn post as requested by the internship instructions:
+You can run this project with any web browser or with the lightweight built-in Node.js static server:
 
-```text
-🚀 Excited to share my personal profile website built as part of Task 1 for the InAmigos Foundation Internship! 🌐🤖
-
-As an Artificial Intelligence and Machine Learning undergraduate at BMS Institute of Technology and Management, I created this interactive portfolio to showcase my journey, technical skill set, and real-world projects — including:
-
-🔹 Virtual Clinic – Autonomous Medical Voice Agent (Gemini 2.5 Flash, Vertex AI, Web Speech API, React)
-🔹 Content-Based Movie Recommendation Engine (Python, Scikit-learn, Streamlit)
-🔹 Interactive AI Profile Assistant embedded directly in the portfolio to answer visitor queries in real time!
-
-Live Website Link: [INSERT YOUR LIVE LINK HERE]
-GitHub Repository: https://github.com/ushhhhhh
-
-Special thanks to InAmigos Foundation for this insightful learning opportunity! 🙌
-
-#InAmigosFoundation #Internship #Task1 #WebDevelopment #ArtificialIntelligence #MachineLearning #GenerativeAI #Portfolio #FullStack #Python #StudentDeveloper
+```bash
+# Start the local server
+node server.js
 ```
 
----
-
-## 📁 File Structure
+Then visit:
 ```
-c:\Users\Admin\OneDrive\Desktop\portfolio\
-├── index.html        # Responsive semantic profile & resume page
-├── style.css         # Modern styling, dark/light theme, mobile layouts & print styles
-├── script.js         # Navigation, theme toggle, contact actions & AI resume bot
-├── server.js         # Zero-dependency Node.js HTTP server for localhost & Wi-Fi
-├── package.json      # NPM configuration
-├── start-server.bat  # 1-click launcher for Windows
-└── README.md         # Instructions, live deployment steps & LinkedIn submission copy
+http://localhost:3000
 ```
