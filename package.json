@@ -4,7 +4,7 @@
   "description": "PawHaven Bengaluru — A modern, responsive website connecting pet adopters with rescued dogs and cats from shelter homes in Bengaluru, Karnataka, India.",
   "scripts": {
     "start": "node server.js",
-    "build": "echo 'PawHaven static site ready'"
+    "build": "node build_inline.js"
   },
   "keywords": [
     "pawhaven",
